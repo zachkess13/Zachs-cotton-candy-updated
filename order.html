@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-- Imported Styles -->
+
+     <link rel="stylesheet" href="styles/homepage.css">
+     <link rel="stylesheet" href="styles/common.css">
+     <link rel="stylesheet" href="Styles/bootstrap/bootstrap.min.css">
+     <link rel="script" src="Styles/bootstrap/js/bootstrap.js">
+     <link rel="stylesheet" href="Styles/order.css">
+ 
+    <!-- Imported Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13af809c43.js"></script>
+
+    <title>Order</title>
+
+</head>
+
+<body>
+
+
+  <div class="skewed-header">
+
+    <div class="header-bg" style="background-image: url(../Images/background/pink-blue-sky-bg.jpeg)"></div>
+
+    <div class="skewed-header-wrapper">
+        
+        <div class="skewed-header-content">
+
+            <div class="heading-wrapper">
+
+                <a href="index.html"><h1>Order Here!</h1></a>
+                
+
+            </div>
+        
+
+        <div class= "links-wrapper">
+                
+                   
+                <div class ="nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+             
+                <div class ="nav-link">
+                    <a href="about.html"> About</a>
+                </div>
+             
+                <div class ="nav-link">
+                    <a href="order.html"> Order</a>
+                </div>
+
+                <div class ="nav-link">
+                  <a href="contact.html"> Contact</a>
+              </div>
+             
+             </div>
+
+            </div>
+
+
+    </div>
+
+  </div>
+
+
+  <div class="form-z-style">
+
+
+        <!-- <div class="center-title">
+
+         <div class="zach-w-cc">
+
+                <img src="Images/standing-blue.JPG" alt="standing-blue">
+                <img src="Images/standing-pink.JPG" alt="standing-pink">
+
+        </div>
+
+        </div>   -->
+
+
+<!-- <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="default.html" class="w3-bar-item w3-button">Home</a>
+    <a href="order.php" class="w3-bar-item w3-button">Order</a>
+    <a href="manage.php" class="w3-bar-item w3-button">Manage</a>
+     Right-sided navbar links. Hide them on small screens 
+    <div class="w3-right w3-hide-small">
+
+      <a href="contact.php" class="w3-bar-item w3-button">Contact</a>
+
+    </div>
+  </div>
+</div> -->
+
+<!-- <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+<a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+<a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+<a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div> -->
+
+
+<!-- Header
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <--<img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Zach's Cotton Candy</h1>
+  </div>
+</header> -->
+<!-- if using recaptcha add onload='disable' -->
+     <div class="w3-container w3-padding-64" id="contact">
+
+    <!-- <h1>Order</h1><br> -->
+
+         <div class="info">
+
+<!--    <p>We offer Delivery to customers in Spanish Fork, Mapleton, Salem and Payson. <br> You can also pick up your order at our Spanish Fork Location. <br>-->
+<!--    We accept Venmo, Apple Cash and Cash as payment. <br> We will ask for payment at time of delivery or pickup.<br>-->
+<!--    When you place your order it will be pending.<br>  When the order is received or accepted <br> we will send you an email.<br>-->
+
+             <p>We offer Delivery to customers in Spanish Fork, Mapleton, Salem and Payson. You can also pick up your order at our Spanish Fork Location.
+                 We accept Venmo, Apple Cash and Cash as payment. We will ask for payment at time of delivery or pickup.
+                 When you place your order it will be pending. When the order is received or accepted we will send you an email. Scroll Down to Order!</p>
+
+                      <div class="icon-arrow-1">
+                          <i class="fas fa-arrow-circle-down"></i>
+                      </div>
+
+                      </div>
+
+         </div>
+
+<!--         <div class="iconn">-->
+
+
+<!--         <div class="icon-arrow-1">-->
+<!--             <i class="fas fa-arrow-circle-down"></i>-->
+<!--         </div>-->
+
+<!--         </div>-->
+
+       <div class="field">
+
+
+    Required Field *
+
+     </div>
+
+    <form method='post' class='real-form' action="orderaction.php">
+
+      <p><input class="w3-input w3-padding-16" pattern="^[a-zA-Z\s]*$" title="name should only have letters" placeholder="First Name *" required name="firstName"></p>
+      <p><input class="w3-input w3-padding-16" pattern="^[a-zA-Z\s]*$" title="name should only have letters" placeholder="Last Name *" required name="lastName"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email Address *" required name="email"></p>
+      <p><input class="w3-input w3-padding-16" pattern="[0-9]{10}" title="10 digit Phone number with no dashes" placeholder="Phone Number *" required name="phone"></p>
+      <p><input class="w3-input w3-padding-16" id='quantity' type="number" min="1" max="100" step="1" placeholder="How Many Cotton Candies *" required name="quantity"></p>
+
+<div id="qmsg" style="color:red;"></div>
+<div id="errorMsg" style="color:red;"></div>
+<div id="err" style="color:red;"></div>
+
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" name="instructions"></p>
+        <div id="address" style="display:none">
+            <p><input class='w3-input w3-padding-16' placeholder='Address *' type="text" name="address" id='streetaddress'/></p>
+            City:
+
+            <select id="city" name="cities">
+
+               <option value="Spanish Fork">Spanish Fork (1 dollar charge)</option>
+               <option value="Salem">Salem (1 dollar charge)</option>
+               <option value="Mapleton">Mapleton (1 dollar charge)</option>
+               <option value="Payson">Payson (2 dollars charge)</option>
+               <option value="Springville">Springville (1 dollar charge)</option>
+               <option value="sfjhs">Spanish Fork Jr High School (Free delivery)</option>
+
+            </select>
+
+         </div>
+
+     </div>
+
+     Color:
+
+         <select id="time" name="type">
+
+            <option class="w3-input w3-padding-16" value="Blue">Blue</option>
+            <option class="w3-input w3-padding-16" value="Pink">Pink</option>
+         </select><br/><br/>
+
+               <b>Delivery (if unchecked you are selecting pickup)</b>
+        <input type="checkbox" name="delivery" id="deliv" value="Delivery" onclick="isDelivery()"/><br/><br/>
+
+        Date of Delivery or Pickup (You can order up to a week in advance):<br/>
+
+        <input type="date" min="2019-06-24" max="2019-07-01" pattern="^\d{4}[\-\/\s]?((((0[13578])|(1[02]))[\-\/\s]?(([0-2][0-9])|(3[01])))|(((0[469])|(11))[\-\/\s]?(([0-2][0-9])|(30)))|(02[\-\/\s]?[0-2][0-9]))$" placeholder="YYYY-MM-DD" title="please use yyyy-mm-dd format" required name="date"><br/>
+
+       <strong> *Most orders will be delivererd on Friday or Saturday*</strong><br/><br/>
+        <div id="delivTime">
+         Desired pickup or delivery time:
+         <select id="time" name="time">
+            <option value="3-4">3-4</option>
+            <option value="4-5">4-5</option>
+            <option value="5-6">5-6</option>
+         </select>
+         PM<br/><br/>
+         </div>
+
+         I would like to receive an email reminder the day that my order will be ready
+         <input type="checkbox" name="confirmation" id="deliv" value="yes" checked/><br/><br/>
+        <!--<div class="g-recaptcha" data-sitekey="6LdOo3kUAAAAALKhg2KJv2NglmREgIWOG-ZZZUFF" data-callback='enableBtn'></div>-->
+        <input type="text" placeholder='83492' name='zipcode' id='zipcode' style='visibility:hidden;'>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit" id='orderButton'>ORDER</button></p>
+    </form>
+  </div> 
+
+  
+<!-- End page content -->
+
+</div>
+
+</div>
+
+  </div>
+
+</body>
+
+</html>

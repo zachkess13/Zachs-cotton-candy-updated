@@ -1,0 +1,313 @@
+
+.nav-bar-wrapper {
+    height: 400px;
+    background-color: #0e326b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 60px 100px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: -18px -18px 0px -18px;
+    
+}
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.color {
+    color: white;
+    transition: .5s;
+    width: 150px;
+    text-align: center;
+}
+
+.color:hover {
+    /* color: #bf3b3b; */
+    /* color: #ff75fc; */
+    color: #ff89fc;
+    letter-spacing: 4px;
+    transition: .3s;
+
+}
+
+.nav-bar-wrapper > .image {
+    width: 100%;
+
+}
+
+.cotton-candy-picture {
+background-image: url(../Images/backgrounds/Cotton-Candy-background.jpeg);
+padding: 100px;
+height: 650px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: inset 0px -17px 27px 3px rgba(0,0,0,0.31);
+
+}
+
+.cotton-candy-picture > .top-header {
+    padding: 1px 20px;
+    background-color: #0e326b;
+    color: #cbcbcb;
+    width: 380px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 82px;
+    letter-spacing: 2px;
+
+}
+
+.cotton-candy-picture > .bottom-header {
+    background-color: #cea135;
+    color: #0e326b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 2px;
+}
+
+    .Middle-Part {
+    background-image: url(../images/backgrounds/Sky-picture.jpeg);
+    padding: 100px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    .Middle-Part {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        margin: -5px;
+    }
+
+    .Middle-Part  >  .title {
+        background-color: #0e326b;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .Middle-Part > .reason-1, .reason-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+        color: whitesmoke;
+    }
+
+    .nav-bar-wrapper > .left-column > .phone  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+    .nav-bar-wrapper > .left-column i {
+   
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+
+    }
+
+
+
+        .nav-bar-wrapper > .right-column > .icon-truck {
+            width: 100%;
+            font-size: 30px;
+            text-align: right;
+        }
+
+        .nav-bar-wrapper > .right-column > .deliveries > .deliver {
+            width: 100%;
+            text-align: right;
+        }
+
+        .nav-bar-wrapper > .center-column img {
+            height: 170px;
+        }
+
+        .nav-bar-wrapper > .center-column > .header {
+            letter-spacing: 3px;
+            padding: 50px;
+            font-weight: 900;
+
+          
+
+        }
+
+        .nav-bar-wrapper > .center-column > .header a:hover{
+            text-decoration: none;
+            
+            
+        }
+
+        .center-column {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        /*.cotton-candy-picture > .background-wrapper {*/
+        /*    background-color: #cea135;*/
+        /*    width: 250px;*/
+        /*    height: 100px;*/
+        /*    padding: 10px;*/
+        /*    text-align: center;*/
+        /*    display: flex;*/
+        /*    align-items: center;*/
+        /*    justify-content: center;*/
+        /*    flex-direction: column;*/
+        /*    border-radius: 5px;*/
+        /*    transition: .6s;*/
+        /*}*/
+
+    /*.cotton-candy-picture > .background-wrapper:hover{*/
+    /*    box-shadow: 21px -19px 39px 10px rgba(0,0,0,0.38);*/
+    /*    text-decoration: none;*/
+    /*    transition: .6s;*/
+
+    /*}*/
+
+        .cotton-candy-picture > .background-wrapper > .order-btn h1 {
+            color: #1b1e21;
+            text-decoration: none;
+        }
+
+.cotton-candy-picture > .background-wrapper > .order-btn h1:hover {
+    color: #1b1e21;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+        .cotton-candy-picture {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: row;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Three columns side by side */
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 60px 0 8px;
+    background-color: transparent;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Three columns side by side */
+.column2{
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px 0 30px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column2 {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 33px -29px 75px -27px rgba(0,0,0,0.55);
+    border: 0px;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+    background-color: #cea135;
+    border: 0;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: whitesmoke;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #0e326b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: .8s;
+}
+
+.button:hover {
+    background-color: #cea135;
+    transition: .6s;
+}
+       
+
+        
+        
+        
+    

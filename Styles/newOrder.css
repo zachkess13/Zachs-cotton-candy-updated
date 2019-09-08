@@ -1,0 +1,101 @@
+body {
+    /* background-image: url(../Images/backgrounds/other-carnival-bg.jpeg); */
+     background-image: url(../Images/Cotton-Model/IMG_3257.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0e326b;
+
+
+}
+
+/* nav bar */
+
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #cea135;
+    color: #11122b;
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper a {
+    text-decoration: none;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    width: 100px;
+    padding-right: 100px;
+
+}
+
+
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    transition: .3s;
+    padding-right: 100px;
+    font-size: 1.25em;
+    color: #ff85fc;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a:hover {
+    color: #ff85fc;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+
+
+.order-pt1 > .writing-wrapper{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-evenly;
+    padding-top: 470px;
+}
+
+.order-pt1 > .writing-wrapper > .writing {
+    background-color: #0e326b;
+    padding: 15px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    letter-height: 3px;
+
+}
+

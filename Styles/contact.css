@@ -1,0 +1,213 @@
+
+
+/* Skeweed image part */
+
+
+
+  .skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    /* margin-bottom: 50px; */
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%)
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #cea135;
+    color: #11122b;
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper a{
+    text-decoration: none;
+
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    width: 100px;
+
+
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    transition: .3s;
+    /*padding-right: 100px;*/
+    font-size: 1.25em;
+    color: #ff85fc;
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a:hover {
+    color: #ff85fc;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+
+
+
+
+/* Form|||||||| */
+
+
+body {
+    background-color: #0e326b;
+}
+
+
+.message-to-customer {
+    color: #b8840c;
+}
+
+
+.requred-wrapper {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+
+#contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact  {
+    font-size: 1.25rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    /* border-bottom: 3px solid #11122b; */
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact input:focus, #contact textarea:focus {
+    outline: none;
+    box-shadow: 23px -21px 74px -5px rgba(0,0,0,0.42);
+    border-bottom: 3px solid #cea135;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+ #contact textarea:focus {
+    outline: none;
+    box-shadow: 23px -21px 74px -5px rgba(0,0,0,0.42);
+    border: 3px solid #cea135;
+    
+    
+}
+
+#contact input { 
+    border: 3px solid #11122b;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: color;
+    padding: 15px 10px;
+    transition: all .3s;
+    outline: none;
+}
+
+#contact textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #11122b;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: transparent;
+    padding: 1.5rem 2rem;
+    transition: all .3s;
+    outline: none;
+}
+
+#contact label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    transition: all 0.3s;
+    color: #cea135;
+    visibility: hidden; 
+    opacity: 0;
+
+}
+
+
+ button  {
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition:.3s;
+}
+
+ 
+#contact p {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}

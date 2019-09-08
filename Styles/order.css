@@ -1,0 +1,163 @@
+
+body {
+    /* background-image: url(../Images/backgrounds/other-carnival-bg.jpeg); */
+    /* background-image: url(../Images/backgrounds/tesla-bg.jpeg); */
+    /*width: 100%;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background-color: #0e326b;
+
+
+}
+
+/* nav bar */
+
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #cea135;
+    color: #11122b;
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper a {
+    text-decoration: none;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    width: 100px;
+    padding-right: 100px;
+
+}
+
+
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: space-between;
+    text-align: center;
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    transition: .3s;
+    padding-right: 100px;
+    font-size: 1.25em;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a:hover {
+    color: #ff85fc;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+
+
+
+/* nav bar ^^^^^^^^^ */
+
+
+.top-part {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top-part >.navlinks {
+    padding-top: 25px;
+    font-size: 1.5em;
+    
+}
+
+.top-part > .title-order {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: #cea135;
+    font-weight: 500;
+    font-size: 3em;
+    width: 350px;
+    height: 200px;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin-bottom: 0px !important; 
+    border-radius: 15px;
+}
+
+
+
+.form-z-style {
+    text-align: center;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+ ::placeholder {
+     color: darkred;
+     font-size: 1.25em;
+     font-family: inherit;
+     padding: 1.5rem 2rem;
+     border-radius: 2px;
+     border: none;
+     text-align: center;
+
+}
+
+ .info {
+     line-height: 55px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     padding: 150px 200px;
+     font-size: 20px;
+     background-color: indianred;
+ }
+
+
+ .field  {
+     padding-top: 30px;
+     padding-bottom: 40px;
+     font-family: inherit;
+     color: inherit;
+     font-size: 1.5em;
+     font-weight: 900;
+ }
