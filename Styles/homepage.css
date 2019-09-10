@@ -1,4 +1,6 @@
 
+
+
 .nav-bar-wrapper {
     height: 400px;
     background-color: #0e326b;
@@ -86,7 +88,8 @@ box-shadow: inset 0px -17px 27px 3px rgba(0,0,0,0.31);
 }
 
     .Middle-Part {
-    background-image: url(../images/backgrounds/Sky-picture.jpeg);
+    /*background-image: url(../images/backgrounds/Sky-picture.jpeg);*/
+        background-image: url(../Images/backgrounds/Blue-cotton-candy-bg.JPG);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -109,7 +112,8 @@ box-shadow: inset 0px -17px 27px 3px rgba(0,0,0,0.31);
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 23px;
+        border-radius: 7px;
 
     }
 

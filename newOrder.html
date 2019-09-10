@@ -24,6 +24,8 @@
 
 <body>
 
+<div class="background-image">
+</div>
 
 <div class="skewed-header">
 
@@ -68,7 +70,7 @@
 
 </div>
 
-<div class="order-pt1">
+<div class="info-for-ordering">
 
 
 
@@ -84,10 +86,69 @@
 
 
     </div>
+
 </div>
 
 
+<div class="order-pt1">
 
+    <div class="required">* field is required</div>
+
+    <form>
+
+
+        <input type="text" name="firstname" placeholder="First Name *" title="Name should only have letters">
+        <br>
+        <br>
+        <input type="text" name="lastname" placeholder="Last Name *" title="Name should only have letters">
+        <br>
+        <br>
+        <input type="email" placeholder="Email Address *" name="email" title="please fill out this field">
+        <br>
+        <br>
+        <input pattern="[0-9]{10}" title="10 digit Phone number with no dashes" placeholder="Phone Number *"
+               name="phone">
+        <br>
+        <br>
+
+        <select>
+
+            <option value="howMany">How Many Cotton Candies?</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+
+        </select>
+
+        <br>
+        <br>
+
+        <input type="text" placeholder="Message \ Special requirements" >
+
+        <br>
+        <br>
+
+        <select>
+
+            <option value="color">Color</option>
+            <option value="Blue">Blue</option>
+            <option value="Pink">Pink</option>
+
+        </select>
+
+    </form>
+
+</div>
 
 
 
