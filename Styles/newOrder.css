@@ -32,11 +32,14 @@ body {
     color: #11122b;
     border-radius: 2px;
     width: 200px;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
-    font-size: 2em;
 }
 
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper i{
+    font-size: 1.5em;
+}
 .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper a {
     text-decoration: none;
 }
@@ -85,8 +88,7 @@ body {
     align-items: center;
     flex-direction: column;
     align-content: space-evenly;
-    padding-top: 470px;
-    padding-bottom: 100px;
+    padding-top: 70px;
 
 }
 
@@ -97,5 +99,28 @@ body {
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     letter-height: 3px;
+}
+
+button {
+    padding: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    background-color: #0e326b;
+    border: #cea135;
+    transition: .9s;
+}
+
+button:hover {
+    transition: .9s;
+    background-color: #cea135;
+    letter-spacing: 3px;
+}
+
+.button-wrapper {
+    padding-top: 340px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You are Ordering!</title>
+
+    <link href="Styles/start-order.html.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13af809c43.js"></script>
+
+
+</head>
+<body>
+
+    <div class="go-back-wrapper">
+
+        <a href="index.html" <i class="fas fa-sort-up"><a/></i><a href="index.html">Back to Home</a>
+
+    </div>
+
+    <div class="required">* field is required</div>
+
+
+
+    <div class="form-wrapper">
+
+            <div class="order-pt1">
+
+
+            <div class="form">
+                <form>
+
+
+                    <input type="text" name="firstname" placeholder="First Name *" title="Name should only have letters">
+                    <br>
+                    <br>
+                    <input type="text" name="lastname" placeholder="Last Name *" title="Name should only have letters">
+                    <br>
+                    <br>
+                    <input type="email" placeholder="Email Address *" name="email" title="please fill out this field">
+                    <br>
+                    <br>
+                    <input pattern="[0-9]{10}" title="10 digit Phone number with no dashes" placeholder="Phone Number *"
+                           name="phone">
+                    <br>
+                    <br>
+
+                    <input type="text" placeholder="Message \ Special requirements" >
+                    <br>
+                    <br>
+
+                    <div class="custom-select">
+                    <select>
+
+                        <option value="howMany">How Many Cotton Candies?</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+
+                    </select>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <select>
+
+                        <option value="color">Color</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Pink">Pink</option>
+
+                    </select>
+
+                    <div class="btn-in-form">
+                        <button type="submit"
+                                onclick="alert('Thanks for Ordering Zachs Cotton Candy, ' +
+                                 'Zach will get back to you shortly :)')">Order</button>
+                    </div>
+
+                </form>
+
+            </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>

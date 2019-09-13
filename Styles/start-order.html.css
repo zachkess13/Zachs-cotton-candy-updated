@@ -1,0 +1,57 @@
+body {
+    background-color: #476C9B;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.go-back-wrapper a {
+    transform: rotate(270deg);
+    color: #cea135;
+    text-decoration: none;
+}
+
+.go-back-wrapper {
+    font-size: 1.5em;
+    padding: 15px 20px;
+}
+
+.required {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #984447;
+    margin-bottom: 57px;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+/* FORM STYLES */
+
+.order-pt1 > .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    width: 300px;
+    padding: 18px;
+    background-color: #8daf95;
+    border: 0px;
+    transition: .9s;
+    outline: 4px #cea135;
+    font-size: 18px;
+}
+
+input:focus {
+    transition: .8s;
+    background-color: #C7CEDB;
+    outline: 4px #cea135;
+    box-shadow: 27px -28px 74px -13px rgba(0,0,0,0.58);
+    border-bottom: solid 2px #984447;
+
+}
+
+
+
