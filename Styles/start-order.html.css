@@ -53,5 +53,38 @@ input:focus {
 
 }
 
+.address-input, .how-many-input, .phone-input, .color-input {
+    font-size: 11px;
+    color: #CDCDCD;
+}
 
+.how-many-input a {
+    text-decoration: underline;
+    color: #CDCDCD;
+}
 
+.btn-in-form button{
+    background-color: #984447;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding: 15px;
+    font-size: 1.11rem;
+    color: whitesmoke;
+    border: 0px transparent;
+    transition: .7s;
+    font-weight: bold;
+
+}
+
+.btn-in-form button:hover {
+    background-color: #cea135;
+    color: #0e326b;
+    transition: .8s;
+    box-shadow: 30px -4px 89px -5px rgba(0,0,0,0.69);
+}
+
+.btn-in-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}

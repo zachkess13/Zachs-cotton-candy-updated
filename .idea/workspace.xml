@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e3c3466-7cb1-42f0-a5cc-f59ac55be64d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Styles/start-order.html.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/newOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/newOrder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/newOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/start-order.html.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/start-order.html.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/start-order.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start-order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+            <state relative-caret-position="462">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles/start-order.html.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="260">
+              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -93,8 +89,8 @@
         <option value="$PROJECT_DIR$/newOrder.html" />
         <option value="$PROJECT_DIR$/Styles/newOrder.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/start-order.html" />
         <option value="$PROJECT_DIR$/Styles/start-order.html.css" />
+        <option value="$PROJECT_DIR$/start-order.html" />
       </list>
     </option>
   </component>
@@ -179,12 +175,12 @@
       <workItem from="1561679739946" duration="1103000" />
       <workItem from="1561765522628" duration="9770000" />
       <workItem from="1567904871966" duration="11259000" />
-      <workItem from="1568327579163" duration="6477000" />
+      <workItem from="1568327579163" duration="9192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37059000" />
+    <option name="totallyTimeSpent" value="39774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -327,17 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="135" column="94" selection-start-line="135" selection-start-column="94" selection-end-line="135" selection-end-column="94" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Styles/newOrder.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -345,17 +330,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start-order.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        <state relative-caret-position="330">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/start-order.html.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="260">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
